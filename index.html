@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <title></title>
+  </head>
+
+  <body>
+    <div id="main" class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>HTML to Canvas Test</h1>
+
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+          </ol>
+
+          <div class="alert alert-success" role="alert">
+            <strong>Well done!</strong> You successfully read this important alert message.
+          </div>
+
+          <p>This is a JavaScript screenshot test using html2canvas.</p>
+
+          <p>
+            <span class="label label-default">Default</span>
+            <span class="label label-primary">Primary</span>
+            <span class="label label-success">Success</span>
+            <span class="label label-info">Info</span>
+            <span class="label label-warning">Warning</span>
+            <span class="label label-danger">Danger</span>
+          </p>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+              <button id="capture" class="btn btn-primary">Capture Fragment</button>
+              <button id="cancel" class="btn btn-default">Cancel Fragment</button>
+              <button id="clear" class="btn btn-default">Clear Output</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Output</h2>
+      <div class="row">
+        <div id="output" class="col-sm-12"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+  </body>
+</html>

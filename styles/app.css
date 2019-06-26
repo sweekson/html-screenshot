@@ -1,0 +1,14 @@
+
+.capture-highlight {
+  outline: 2px solid #fcd140;
+}
+
+.captured-image {
+  border: 1px solid transparent;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.captured-image:hover {
+  border: 1px solid #ccc;
+}
